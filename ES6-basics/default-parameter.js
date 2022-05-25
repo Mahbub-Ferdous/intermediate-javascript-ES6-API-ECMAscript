@@ -39,3 +39,13 @@ const params = added(15);
 const params2 = added(15,35);
 console.log(params);      // ans will be 15 cause num2 = 0 and we didnt pass any num2 arguments but if we pass any arguments than that will be counted the value of num2 not counted num2 = 0 and thats why we use default parameter function if we missed to pass any parameter 
 console.log(params2);       /// ans will be 50 cause num2 = 0 default parameter didnt counted anyways 
+
+
+
+// function-default parameter-string:
+function fullName(first,last = 'Khan'){
+    const fullName = first + " " + last;
+    return fullName;
+}
+const name = fullName("Azad");
+console.log(name);     // abs will be Azad Khan
