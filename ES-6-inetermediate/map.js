@@ -53,3 +53,7 @@ console.log(productsName);        // ans is [ 'Laptop', 'Phone', 'Watch', 'Aungl
 
 const productPrice = products.map(p => p.price);
 console.log(productPrice);            // ans is [ 32000, 700, 3000, 300, 9000 ]
+
+
+
+////////// if i says the functionality of filter and map functionn are same just the main difference is map return indivisual elements inside a new array but filter can filter some specific elements regarding arrow function conditions from an array and return this inside a new array that it.
