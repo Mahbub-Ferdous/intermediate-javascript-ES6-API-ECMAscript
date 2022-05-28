@@ -12,7 +12,7 @@ const nameOfLength = [];
 // length function 
 const nameLength = x => x.length;
 for(const friend of friends){
-    const length = friend.length;
+    const length = nameLength(friend);
     nameOfLength.push(length);
 }
 console.log(nameOfLength);              /// ans is same [ 14, 14, 15, 10, 13 ]
