@@ -24,6 +24,6 @@ const getData = (posts) => {
         <p>${post.body}</p>
         `;
     // append with parent:
-    postContainer.appendChild(div);
+    postContainer.appendChild(p);
   }
 };
