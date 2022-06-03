@@ -41,7 +41,7 @@ const loadCountryByName = (name) => {
 };
 
 const displayCountryDetails = (country) => {
-  //   console.log(country);
+  // console.log(country);
   const showElement = document.getElementById("country-details");
   showElement.innerHTML = `
     <h3>Population : ${country[0].population}</h3>
