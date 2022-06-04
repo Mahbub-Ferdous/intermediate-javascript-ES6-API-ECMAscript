@@ -27,9 +27,20 @@
         width: 100%;
         height: 60%;
       }
+      .cursor {
+        cursor: pointer;
+      }
+      .error {
+        border: 3px solid lightpink;
+        border-radius: 10px;
+        padding: 8px 12px;
+        margin: auto auto;
+        width: 50%;
+        text-align: center;
+      }
     </style>
   </head>
-  <body>
+  <body id="body">
     <h1 class="text-center">Search your favourite food:</h1>
     <!-- search box -->
     <div class="input-group mb-3 w-50 mx-auto my-5">
@@ -49,6 +60,16 @@
         Search
       </button>
     </div>
+    <!-- error div -->
+    <div id="error"></div>
+    <!-- error handling show in ui by using try..catch -->
+    <div>
+      <p id="error-handler" class="text-danger text-center my-5">
+        Something went wrong please try it again later...!!!
+      </p>
+    </div>
+    <!-- single-meal-details -->
+    <div id="meal-details" class="my-5 mx-auto"></div>
     <!-- food section -->
     <div
       id="card-group"
