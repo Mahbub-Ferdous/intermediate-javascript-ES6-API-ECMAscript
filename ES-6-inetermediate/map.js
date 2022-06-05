@@ -20,7 +20,7 @@ console.log(output); // ans is [50,100,150,200,250]
 /* 
 map = {
 firstTask: '1. loop through each element from an array',
-secondTask: '2. for each element call the provided function',
+secondTask: '2. for each elements call the provided function',
 thiredTask: '3. result for each element will be stored in a new array' 
 }
 */

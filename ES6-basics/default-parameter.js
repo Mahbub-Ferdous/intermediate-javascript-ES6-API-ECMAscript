@@ -14,7 +14,7 @@ function summation(num1, num2) {
   return total;
 }
 const paramtr = summation(15);
-console.log(paramtr);     // ans will be NaN = not a number cause num2 i mean 2nd parameter will be undefine and when we add a number with undefine than it will ber not a number 
+console.log(paramtr);     // ans will be NaN = not a number cause num2 i mean 2nd parameter will be undefine and when we add a number with undefine than it will be not a number 
 
 
 // so what is soluationn to resolve it
