@@ -56,7 +56,7 @@ if(JSON.stringify(first) == JSON.stringify(second)){
 const first1 = {a:5,b:10};
 const second1 = {b:10,a:5};
 if(JSON.stringify(first1) === JSON.stringify(second1)){
-    console.log("both are same");    /// ans is "both are same"
+    console.log("both are same");   
 }else{
     console.log("both are not same");     // ans is both are not same 
 }
